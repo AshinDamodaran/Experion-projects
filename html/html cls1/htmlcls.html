@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: rgb(225, 34, 168);
+            border: 10px solid rgb(239, 247, 250);
+            height: 100px;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2 fr);
+        grid-area: 1fr;  
+        gap: 10px;
+        height: 120px;
+        
+        }
+        .span-2{
+            grid-column: span2;
+            width: 5max;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box span-2"></div>
+    </div>
+</body>
+</html>

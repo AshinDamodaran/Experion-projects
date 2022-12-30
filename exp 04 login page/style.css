@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: rgba(41, 199, 247, 0.897);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: rgb(234, 249, 252);
+    height: 350px;
+    width: 300px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+}
+.screen{
+    background-color: rgb(49, 170, 250);
+    width: 300px;
+    height: 350px;
+}
+    img {
+        height: 110px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 95px;
+        margin-top: 70px;
+    
+      }
+
+
+.grid{
+    width: 100px;
+height:100px;
+
+}
+.key{
+    background-color: rgb(42, 247, 80);
+    color: aliceblue;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30%;
+}

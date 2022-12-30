@@ -1,0 +1,32 @@
+body{
+    margin:0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+.content{
+    color: white;
+    background-color: rgb(57, 222, 222);
+    width: 120px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+    
+}
+.col-2{
+    margin-left: 180px;
+    
+    
+
+    
+}
+.col-3{
+    margin-left:  180px
+}
+.col-4{
+    margin-left:auto ;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: aliceblue;
+    
+}
+
+.box{
+    background-color: brown;
+    color: aliceblue;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+}
