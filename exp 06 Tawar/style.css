@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+.container{
+    background-color: rgb(74, 231, 178);
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .box{
+
+            background-color: white(74, 231, 178);
+            height: 72vh;
+            width: 60px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+    }
+
+
+
+.footer{
+    background-color: rgb(111, 210, 238);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: rgb(233, 231, 227);
+    height: 25vh;
+    display: flex;
+}
